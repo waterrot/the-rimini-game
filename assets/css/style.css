@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* general styling and functions */
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+.link-styling {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link-styling:hover {
+    color: #000000;
+    text-decoration-color: #000000;
+}
+
+.hide {
+    display: none;
+}
+/* end general styling */
+
+/* colors */
+.yellow {
+    background-color: #F7DE6A; /* the house style yellow color */ 
+    border-color: #F7DE6A; /* the house style yellow color */
+}
+
+.yellow:hover {
+  background-color: #C5B054;
+  border-color: #C5B054;
+}
+
+.yellow-color {
+    color: #F7DE6A;
+}
+
+.pink {
+    background-color: #6A6BF7;
+    border-color: #6A6BF7;
+}
+
+.pink:hover {
+    background-color: #036372;
+    border-color: #036372;
+}
+/* end colors */
+
+/* backgrounds */
+.bg-cards {
+    background-color: #6A6BF7;
+}
+/* end backgrounds */
+
+/* buttons */
+.btn-beer {
+    border-radius: 15px;
+}
+
+#restartBtn {
+    position: absolute; 
+    bottom: 10px; 
+    right: 10px;
+}
+/* end buttons */
+
+/* card styling */
+.card-layout {
+    position: relative;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px 0 3px; 
+}
+
+.card-layout-playernames {
+    position: relative;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px 0 3px;
+    min-height: 400px;
+}
+
+.card-p-font {
+    font-size: 1.2em;
+}
+
+.card-p-font-bigger {
+    font-size: 1.4em;
+}
+
+.right-bottom-grid {        /* set link to right bottom in card */
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+}
+
+.red-border {
+   border-color: red; 
+}
+
+.inline-titles {
+    float: left;
+    display: inline;
+    width: 70%;
+}
+/* end card styling */
+
+/* footer */
+.footer-general {
+    background-color: #343A40;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    padding: 20px;
+}
+
+footer a {
+    margin: 0px 0px 8px;
+    transition: all 0.25s ease-in-out;
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #F7DE6A;
+    text-decoration: none;
+}
+/* end footer styling */
